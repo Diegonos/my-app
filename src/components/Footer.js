@@ -17,7 +17,6 @@ function Footer() {
       <footer>
         <Box
           backgroundColor="#edefee"
-          isDarkBackground
           p={8}
           alignItems="center"
           spacing={8}
@@ -64,7 +63,7 @@ function Footer() {
             </Container>
         </Box>
         <Box
-        backgroundColor="#edefee"
+          backgroundColor="#edefee"
         >
             <Flex
               alignItems={'center'}
@@ -72,7 +71,7 @@ function Footer() {
               maxWidth={'1024px'}
               margin={'0 auto'}
               px={'12'}
-              heigh={'16'}
+              height={'16'}
             >
                 <Text>© 2025 Little Lemon Restaurant. All rights reserved</Text>
             </Flex>
