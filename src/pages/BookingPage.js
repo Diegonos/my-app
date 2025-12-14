@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OrderPage =() => {
+const BookingPage =() => {
 
     return (
         <>
@@ -8,9 +8,9 @@ const OrderPage =() => {
            <br></br>
            <br></br>
            <br></br>
-           <h1>Order a deliver</h1>
+           <h1>Book a table</h1>
         </>
     )
 }
 
-export default OrderPage
+export default BookingPage
