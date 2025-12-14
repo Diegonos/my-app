@@ -1,9 +1,9 @@
 import { useReducer } from "react";
 import { Route, Routes } from "react-router-dom";
-import Homepage from "../pages/HomePage";
-import Menu from "../pages/Menu";
+import Homepage from "../pages/Homepage/Homepage";
+import Menu from "../pages/Menu/Menu";
 import BookingPage from "../pages/BookingPage/BookingPage";
-import AboutPage from "../pages/AboutPage";
+import AboutPage from "../pages/AboutPage/AboutPage";
 
 export const initializeTimes = () => {
   return ["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"];
