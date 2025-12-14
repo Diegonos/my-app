@@ -1,4 +1,3 @@
-import { ChakraProvider } from '@chakra-ui/react';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -10,12 +9,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <ChakraProvider>
           <Nav/>
           <Header/>
           <Main/>
           <Footer/>
-        </ChakraProvider>
       </BrowserRouter>
     </>
   );

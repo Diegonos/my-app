@@ -1,0 +1,72 @@
+/* Centra tutto verticalmente e orizzontalmente */
+.booking-page {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3rem 1rem;
+  background-color: #f5f5f5; /* leggero grigio chiaro */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Titolo principale */
+.booking-page h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Stile del form */
+.booking-page form {
+  display: grid;
+  gap: 15px;
+  max-width: 500px; /* aumentato da 300px a 400px */
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Etichette */
+.booking-page label {
+  font-weight: 600;
+  color: #555;
+}
+
+/* Input e select */
+.booking-page input[type="date"],
+.booking-page input[type="number"],
+.booking-page select {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s ease-in-out;
+}
+
+.booking-page input[type="date"]:focus,
+.booking-page input[type="number"]:focus,
+.booking-page select:focus {
+  border-color: #f4ce14; /* giallo brand Little Lemon */
+  outline: none;
+}
+
+/* Bottone submit */
+.booking-page input[type="submit"] {
+  background-color: #f4ce14;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.booking-page input[type="submit"]:hover {
+  background-color: #e6c60d; /* leggero scurimento al hover */
+}
